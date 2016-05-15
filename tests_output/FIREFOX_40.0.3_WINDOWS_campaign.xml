@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="campaign"
+    errors="0" failures="0" hostname="" id="" package="campaign" skipped="0"
+    tests="5" time="0.000" timestamp="Wed, 14 Oct 2015 19:56:21 GMT">
+  
+    <testcase name="test campaign create with blank fields causing validation errors" time="29.02" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Unable to locate element: &quot;input[name=&#39;PageName26&#39;&quot; using: css selector
+Unable to locate element: &quot;span[data-page-definition-id=&quot;26&quot;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="test campaign create saves correctly" time="2.484" assertions="0">
+    </testcase>
+      <system-err>
+        Unable to locate element: &quot;input[name=&#39;PageName26&#39;&quot; using: css selector
+Unable to locate element: &quot;span[data-page-definition-id=&quot;26&quot;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="test campaign has correct field values (1)" time="3.203" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Unable to locate element: &quot;input[name=&#39;PageName26&#39;&quot; using: css selector
+Unable to locate element: &quot;span[data-page-definition-id=&quot;26&quot;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="test campaign edit saves correctly" time="2.735" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Unable to locate element: &quot;input[name=&#39;PageName26&#39;&quot; using: css selector
+Unable to locate element: &quot;span[data-page-definition-id=&quot;26&quot;]&quot; using: css selector
+      </system-err>
+  
+    <testcase name="test campaign has correct field values (2)" time="1.734" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Unable to locate element: &quot;input[name=&#39;PageName26&#39;&quot; using: css selector
+Unable to locate element: &quot;span[data-page-definition-id=&quot;26&quot;]&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

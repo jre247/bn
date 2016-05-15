@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="ad-listing"
+    errors="0" failures="0" hostname="" id="" package="ad-listing" skipped="0"
+    tests="6" time="0.000" timestamp="Thu, 21 Apr 2016 13:58:10 GMT">
+  
+    <testcase name="create a delivery group" time="11.22" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create an overlay promotional creative" time="4.355" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a destination creative" time="3.150" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create an ad" time="4.666" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test delivery group filter works" time="1.213" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test placement filter works" time="0.5070" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

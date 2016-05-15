@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="20">
+
+  <testsuite name="promotional-ad-edit"
+    errors="0" failures="0" hostname="" id="" package="promotional-ad-edit" skipped="0"
+    tests="20" time="0.000" timestamp="Wed, 17 Feb 2016 17:43:33 GMT">
+  
+    <testcase name="create a delivery group" time="12.30" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a second delivery group" time="3.904" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create an overlay promotional creative" time="4.987" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a second overlay promotional creative" time="4.538" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a destination creative" time="3.307" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a second destination creative" time="5.877" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test creating an ad empty fields causes name validation error" time="4.900" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test creating a promotional ad saves" time="7.732" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test created promotional ad has correct input values" time="1.883" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test editing promotional ad coordinates saves for Roku Platform" time="2.115" assertions="0">
+    </testcase>
+  
+    <testcase name="test edited promotional ad has correct coordinates input values for Roku Platform" time="1.976" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test creating a promotional ad saves for Html5 Platform" time="9.276" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test created promotional ad has correct coordinates input values for Html5 Platform" time="1.496" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test editing promotional ad coordinates saves for Html5 Platform" time="1.966" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test edited promotional ad coordinates has correct input values for Html5 Platform" time="1.472" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test SD Coordinates inputs are hidden for selected Html5 platform" time="1.856" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test HD Coordinates inputs are visible for selected Html5 platform" time="1.377" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test HD and SD Coordinates inputs are visible for selected Roku platform" time="2.043" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test max validations for SD/HD X/Y Coordinates input for selected Roku platform" time="3.337" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test max validations for HD X/Y Coordinates input for selected HTML5 platform" time="2.261" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

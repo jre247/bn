@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="campaign"
+    errors="0" failures="0" hostname="" id="" package="campaign" skipped="0"
+    tests="5" time="0.000" timestamp="Fri, 25 Sep 2015 16:26:20 GMT">
+  
+    <testcase name="test campaign create with blank fields causing validation errors" time="15.82" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Error while running [Promotional Creative / test promotional creative field values persisted after edit]:
+Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;10.211.55.4&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: driver.version: unknown
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot; using: xpath
+      </system-err>
+  
+    <testcase name="test campaign create saves correctly" time="5.078" assertions="0">
+    </testcase>
+      <system-err>
+        Error while running [Promotional Creative / test promotional creative field values persisted after edit]:
+Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;10.211.55.4&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: driver.version: unknown
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot; using: xpath
+      </system-err>
+  
+    <testcase name="test campaign has correct field values (1)" time="5.065" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Error while running [Promotional Creative / test promotional creative field values persisted after edit]:
+Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;10.211.55.4&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: driver.version: unknown
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot; using: xpath
+      </system-err>
+  
+    <testcase name="test campaign edit saves correctly" time="6.113" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Error while running [Promotional Creative / test promotional creative field values persisted after edit]:
+Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;10.211.55.4&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: driver.version: unknown
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot; using: xpath
+      </system-err>
+  
+    <testcase name="test campaign has correct field values (2)" time="3.116" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Error while running [Promotional Creative / test promotional creative field values persisted after edit]:
+Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;10.211.55.4&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: driver.version: unknown
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;//a[text()=&#39;f7ad6d64-0b28-9faa-9737-5a6f8ff3e198&#39;]&quot; using: xpath
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

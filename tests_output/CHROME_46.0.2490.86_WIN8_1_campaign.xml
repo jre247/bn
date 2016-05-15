@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="campaign"
+    errors="0" failures="0" hostname="" id="" package="campaign" skipped="0"
+    tests="5" time="0.000" timestamp="Mon, 07 Dec 2015 17:02:08 GMT">
+  
+    <testcase name="test campaign create with blank fields causing validation errors" time="8.041" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName1&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName1&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName1&#39;&quot; using: css selector
+Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName2&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName2&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName2&#39;&quot; using: css selector
+Error while running [User Administration / test selecting an internal role also selects employee role (Step 1: Arrange)]:
+unknown error: Element is not clickable at point (1112, 97). Other element would receive the click: &lt;div class=&quot;loading&quot; style=&quot;opacity: 0.292982;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 174 milliseconds
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir9960_5854}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 33654725837ebe7e35009094d5b7ba20
+
+For more information about the error run with --verbose option.
+      </system-err>
+  
+    <testcase name="test campaign create saves correctly" time="1.503" assertions="0">
+    </testcase>
+      <system-err>
+        Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName1&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName1&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName1&#39;&quot; using: css selector
+Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName2&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName2&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName2&#39;&quot; using: css selector
+Error while running [User Administration / test selecting an internal role also selects employee role (Step 1: Arrange)]:
+unknown error: Element is not clickable at point (1112, 97). Other element would receive the click: &lt;div class=&quot;loading&quot; style=&quot;opacity: 0.292982;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 174 milliseconds
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir9960_5854}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 33654725837ebe7e35009094d5b7ba20
+
+For more information about the error run with --verbose option.
+      </system-err>
+  
+    <testcase name="test campaign has correct field values (1)" time="1.717" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName1&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName1&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName1&#39;&quot; using: css selector
+Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName2&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName2&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName2&#39;&quot; using: css selector
+Error while running [User Administration / test selecting an internal role also selects employee role (Step 1: Arrange)]:
+unknown error: Element is not clickable at point (1112, 97). Other element would receive the click: &lt;div class=&quot;loading&quot; style=&quot;opacity: 0.292982;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 174 milliseconds
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir9960_5854}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 33654725837ebe7e35009094d5b7ba20
+
+For more information about the error run with --verbose option.
+      </system-err>
+  
+    <testcase name="test campaign edit saves correctly" time="1.946" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName1&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName1&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName1&#39;&quot; using: css selector
+Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName2&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName2&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName2&#39;&quot; using: css selector
+Error while running [User Administration / test selecting an internal role also selects employee role (Step 1: Arrange)]:
+unknown error: Element is not clickable at point (1112, 97). Other element would receive the click: &lt;div class=&quot;loading&quot; style=&quot;opacity: 0.292982;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 174 milliseconds
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir9960_5854}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 33654725837ebe7e35009094d5b7ba20
+
+For more information about the error run with --verbose option.
+      </system-err>
+  
+    <testcase name="test campaign has correct field values (2)" time="2.641" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+        Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName1&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName1&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName1&#39;&quot; using: css selector
+Error while running [Destination Creative / test Calculator feature has correct properties (step 1: arrange)]:
+no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[name=&#39;PageName2&#39;&quot;}
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir8640_20377}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c214ed1f3d3fd3ef0306f0bc804b97c5
+*** Element info: {Using=css selector, value=input[name=&#39;PageName2&#39;}
+
+For more information about the error run with --verbose option.
+Unable to locate element: &quot;input[name=&#39;PageName2&#39;&quot; using: css selector
+Error while running [User Administration / test selecting an internal role also selects employee role (Step 1: Arrange)]:
+unknown error: Element is not clickable at point (1112, 97). Other element would receive the click: &lt;div class=&quot;loading&quot; style=&quot;opacity: 0.292982;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=46.0.2490.86)
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 174 milliseconds
+Build info: version: &#39;2.47.1&#39;, revision: &#39;411b314&#39;, time: &#39;2015-07-30 03:03:16&#39;
+System info: host: &#39;JEVANS&#39;, ip: &#39;192.168.21.3&#39;, os.name: &#39;Windows 8.1&#39;, os.arch: &#39;x86&#39;, os.version: &#39;6.3&#39;, java.version: &#39;1.8.0_60&#39;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\jevans.BLP\AppData\Local\Temp\scoped_dir9960_5854}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.86, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 33654725837ebe7e35009094d5b7ba20
+
+For more information about the error run with --verbose option.
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

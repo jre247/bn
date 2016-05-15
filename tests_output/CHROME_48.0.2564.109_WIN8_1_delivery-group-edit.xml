@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="delivery-group-edit"
+    errors="0" failures="0" hostname="" id="" package="delivery-group-edit" skipped="0"
+    tests="4" time="0.000" timestamp="Tue, 16 Feb 2016 18:15:55 GMT">
+  
+    <testcase name="create a delivery group" time="9.280" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="valide delivery group saved" time="0.3630" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="delivery group edit" time="2.743" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="valide delivery group edit saved" time="1.664" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

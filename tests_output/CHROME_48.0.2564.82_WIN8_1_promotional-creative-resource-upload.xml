@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="promotional-creative-resource-upload"
+    errors="0" failures="0" hostname="" id="" package="promotional-creative-resource-upload" skipped="0"
+    tests="6" time="0.000" timestamp="Mon, 01 Feb 2016 18:37:19 GMT">
+  
+    <testcase name="test promotional creative SD resource upload" time="15.55" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative SD resource upload worked" time="2.599" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative HD resource upload" time="5.006" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative HD resource upload worked" time="2.448" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative SD and HD resources upload" time="5.227" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative SD and HD resources upload worked" time="4.081" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

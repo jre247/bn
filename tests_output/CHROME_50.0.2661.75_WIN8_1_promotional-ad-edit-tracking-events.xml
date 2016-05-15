@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="promotional-ad-edit-tracking-events"
+    errors="0" failures="0" hostname="" id="" package="promotional-ad-edit-tracking-events" skipped="0"
+    tests="9" time="0.000" timestamp="Thu, 21 Apr 2016 14:03:36 GMT">
+  
+    <testcase name="create a delivery group" time="10.34" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create an overlay promotional creative" time="4.833" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a destination creative" time="3.277" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Tracking Events saves correctly for new Ad" time="6.489" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test created promotional ad has correct tracking event values" time="2.145" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test creating a third Tracking Event for a promotional ad saves correctly" time="1.366" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test promotional ad has correct tracking event values" time="1.603" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional ad delete tracking event removes tracking event row" time="0.3540" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional ad delete tracking event removed tracking event row" time="1.548" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

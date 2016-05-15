@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="6">
+
+  <testsuite name="promotionalCreative"
+    errors="1" failures="1" hostname="" id="" package="promotionalCreative" skipped="1"
+    tests="6" time="0.000" timestamp="Fri, 25 Sep 2015 16:28:32 GMT">
+  
+    <testcase name="test creating a promotional creative with empty fields causes name validation error" time="13.65" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test creating a promotional creative will save" time="3.930" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative field values persisted after create" time="3.988" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test editing a promotional creative" time="4.885" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative field values persisted after edit" time="15.28" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;input[name=&#39;Name&#39;]&gt; to be present for 10000 milliseconds.">AssertionError: Timed out while waiting for element &lt;input[name=&#39;Name&#39;]&gt; to be present for 10000 milliseconds.
+    at Object.module.exports.test promotional creative field values persisted after edit (C:\code\project\brightline\tests\Brightline.AcceptanceTesting\tests\promotionalCreative.js:91:4)
+    at Module.call (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:60:34)
+    at C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:102:29
+    at _fulfilled (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at process._tickCallback (node.js:355:11)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="test duplicate creative name">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

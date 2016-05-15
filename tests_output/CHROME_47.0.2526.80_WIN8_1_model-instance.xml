@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="model-instance"
+    errors="0" failures="0" hostname="" id="" package="model-instance" skipped="0"
+    tests="3" time="0.000" timestamp="Mon, 14 Dec 2015 19:23:23 GMT">
+  
+    <testcase name="create Video Feature" time="9.304" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Creating a Video Description Model Instance (step 1: arrange)" time="3.115" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Video Description Model Instance (step 2: arrange)" time="3.524" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

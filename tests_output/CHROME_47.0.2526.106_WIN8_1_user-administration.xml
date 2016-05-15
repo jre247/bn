@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="10">
+
+  <testsuite name="user-administration"
+    errors="0" failures="0" hostname="" id="" package="user-administration" skipped="0"
+    tests="10" time="0.000" timestamp="Wed, 13 Jan 2016 20:39:10 GMT">
+  
+    <testcase name="test selecting an internal role also selects employee role (Step 1: Arrange)" time="14.58" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test selecting an external role does not select employee role (Step 1: Arrange)" time="0.2100" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Agency Partner selection displays Media Agency select list" time="0.1950" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Client selection displays Advertiser select list" time="0.2490" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Advertiser selection persists (Step 1: Arrange)" time="2.244" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Advertiser selection persists (Step 2: Assert)" time="3.003" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Media Agency selection persists (Step 1: Arrange)" time="2.073" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Media Agency selection persists (Step 2: Assert)" time="2.979" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test User base level properties persist (Step 1: Arrange)" time="2.212" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test User base level properties persist (Step 2: Assert)" time="5.809" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

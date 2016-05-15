@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="analytics-overview-for-employee"
+    errors="0" failures="0" hostname="" id="" package="analytics-overview-for-employee" skipped="0"
+    tests="6" time="0.000" timestamp="Thu, 21 Jan 2016 16:32:38 GMT">
+  
+    <testcase name="test all 3 nav pillars are visible on analytics overview page" time="12.86" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test metric1 and metric 2 filters are visible" time="0.1530" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test metric1 filter has Total Sessions selected and metric2 filter has Avg Time Spent selected as a default" time="0.1200" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test metric1 filter has correct available metrics" time="0.6930" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test metric2 filter has correct available metrics" time="0.7310" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test table has correct columns" time="0.6950" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="campaign-resource-upload"
+    errors="0" failures="0" hostname="" id="" package="campaign-resource-upload" skipped="0"
+    tests="2" time="0.000" timestamp="Mon, 14 Dec 2015 19:21:29 GMT">
+  
+    <testcase name="test campaign resource upload (step 1: arrange)" time="13.17" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test campaign resource upload (step 2: assert)" time="3.260" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

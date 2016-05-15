@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="campaign-edit"
+    errors="0" failures="0" hostname="" id="" package="campaign-edit" skipped="0"
+    tests="5" time="0.000" timestamp="Tue, 16 Feb 2016 18:15:30 GMT">
+  
+    <testcase name="test campaign create with blank fields causing validation errors" time="8.015" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test campaign create saves correctly" time="2.203" assertions="0">
+    </testcase>
+  
+    <testcase name="test campaign has correct field values (1)" time="2.622" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test campaign edit saves correctly" time="2.372" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test campaign has correct field values (2)" time="0.4360" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

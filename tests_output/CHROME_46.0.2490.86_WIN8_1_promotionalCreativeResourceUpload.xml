@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="12">
+
+  <testsuite name="promotionalCreativeResourceUpload"
+    errors="0" failures="0" hostname="" id="" package="promotionalCreativeResourceUpload" skipped="0"
+    tests="12" time="0.000" timestamp="Thu, 19 Nov 2015 21:32:13 GMT">
+  
+    <testcase name="test creating a promotional creative with empty fields causes name validation error" time="8.640" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test creating a promotional creative will save" time="1.901" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative field values persisted after create" time="3.030" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test editing a promotional creative" time="3.329" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative field values persisted after edit" time="2.490" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test duplicate creative name" time="4.774" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative SD resource upload" time="2.741" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative SD resource upload worked" time="3.220" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative HD resource upload" time="2.820" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative HD resource upload worked" time="3.107" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative SD and HD resources upload" time="2.868" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test promotional creative SD and HD resources upload worked" time="4.631" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

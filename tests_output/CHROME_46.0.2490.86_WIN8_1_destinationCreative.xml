@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="26">
+
+  <testsuite name="destinationCreative"
+    errors="0" failures="0" hostname="" id="" package="destinationCreative" skipped="0"
+    tests="26" time="0.000" timestamp="Thu, 19 Nov 2015 21:30:44 GMT">
+  
+    <testcase name="test deleting feature removes feature, before saving" time="9.943" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test deleting feature among a list of features will remove the correct feature, before saving" time="3.343" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test creating a destination creative with only name and description" time="5.550" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test existing creative has correct name and description" time="1.131" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test new creative cannot use a name that exists for another creative" time="4.288" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Calculator feature has correct properties (step 1: arrange)" time="3.884" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test Calculator feature has correct properties (step 2: assert)" time="3.215" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Combination feature has correct properties (step 1: arrange)" time="2.582" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test Combination feature has correct properties (step 2: assert)" time="3.031" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Image feature has correct properties (step 1: arrange)" time="2.562" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test Image feature has correct properties (step 2: assert)" time="3.053" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Questionaire feature has correct properties (step 1: arrange)" time="3.155" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test Questionaire feature has correct properties (step 2: assert)" time="3.313" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Video feature has correct properties (step 1: arrange)" time="2.709" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test Video feature has correct properties (step 2: assert)" time="3.167" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test switching between new creative feature pages displays correct page fields" time="2.010" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test switching between new creative feature pages clears page field value after switching back" time="2.043" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Video Description model instance create errors if Description Image is not supplied" time="4.273" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Video Description models display (step 1: arrange)" time="3.238" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test Video Description models display (step 2: assert)" time="2.962" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Image Description models display (step 1: arrange)" time="2.623" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test Image models display (step 2: assert)" time="3.014" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Email Entry models display (step 1: arrange)" time="3.259" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test Email Entry models display (step 2: assert)" time="2.720" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test Calculator Style model display (step 1: arrange)" time="4.302" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test Calculator Style model display (step 2: assert)" time="4.157" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

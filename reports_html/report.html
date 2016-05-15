@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nightwatch HTML Report - Default Theme</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <style type="text/css">body{
+  margin: 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+}
+
+h2{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+h3{
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.toggleSuccess, .toggleError{
+  margin-right: 10px;
+}
+
+.errmessages{
+  background-color: rgba(238, 64, 64, 0.43);
+  border: 1px solid rgba(235, 28, 28, 0.78);
+  padding: 5px;
+}
+
+.errmessages h2{
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.errmessages .errors{
+  display: none;
+}
+
+.suites {
+  margin: 0 0 0 30px;
+}
+
+.package {
+  margin: 15px 0;
+}
+.package > .name {
+  cursor: pointer;
+}
+
+.suite {
+  margin: 15px 0;
+}
+
+.suite > .name {
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+}
+
+.testcases {
+}
+
+.status{
+  display: inline-block;
+}
+
+.testcase .name {
+  display: inline-block;
+}
+
+.success{
+  color: rgb(56, 142, 56);
+}
+.testcase img{
+  max-width: 80%;
+}
+.package.error > .name{
+  color: rgb(178, 43, 43);
+}
+.suite.error > .name{
+  color: rgb(178, 43, 43);
+}
+
+.testcase.success .name{
+  color: rgb(56, 142, 56);
+}
+.testcase.error .status{
+  color: rgb(178, 43, 43);
+}
+    </style>
+    <script type="text/javascript">$(document).ready(function(){
+  $('.package>.name').click(function(){
+    $(this).siblings('.suites').slideToggle();
+  });
+
+  $('.suites, .errmessages, .testcases').hide();
+
+  $('.suite, .errmessages').click(function(){
+    var $elem = $(this);
+    $elem.children('.testcases, .errors').slideToggle();
+  });
+  $('.toggleSuccess').click(function(){
+    $('.package.success').slideToggle();
+  });
+  $('.toggleError').click(function(){
+    $('.package.error').slideToggle();
+  });
+});
+    </script>
+  </head>
+  <body>
+    <h1>Nightwatch Results</h1>
+    <div id="container"><a href="#" class="toggleSuccess">Show/Hide Successes</a>
+      <div class="package success">
+        <h2 class="name">&#10003; campaign</h2>
+        <div class="suites">
+          <div class="suite success">
+            <h3 class="name">test campaign create with blank fields causing validation errors</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;body&gt; was visible after 109 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.validation-summary-errors&gt; contains text: &quot;Name is required.&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.validation-summary-errors&gt; contains text: &quot;Agency must be selected.&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.validation-summary-errors&gt; contains text: &quot;Product must be selected.&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.validation-summary-errors&gt; contains text: &quot;Campaign type must be selected.&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test campaign create saves correctly</h3>
+            <ul class="testcases">
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test campaign has correct field values (1)</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;a[title=&quot;Edit&quot;]&gt; was visible after 1578 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#Name&gt; was visible after 31 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;#Name&gt; equals: &quot;Campaign Test 1&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;#Agency&gt; equals: &quot;1&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;#Product&gt; equals: &quot;2&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if attribute checked of &lt;#CampaignType_1&gt; contains &quot;true&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test campaign edit saves correctly</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;a[title=&quot;Edit&quot;]&gt; was visible after 547 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#Name&gt; was visible after 31 milliseconds.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test campaign has correct field values (2)</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;a[title=&quot;Edit&quot;]&gt; was visible after 546 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#Name&gt; was visible after 47 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;#Name&gt; equals: &quot;Campaign Test 2&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;#Agency&gt; equals: &quot;2&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;#Product&gt; equals: &quot;4&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if attribute checked of &lt;#CampaignType_2&gt; contains &quot;true&quot;.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="package error">
+        <h2 class="name">&#10005; destinationCreative</h2>
+        <div class="suites">
+          <div class="suite success">
+            <h3 class="name">test deleting feature removes feature, before saving</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;body&gt; was visible after 78 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#ddFeaturesAdd&gt; was visible after 547 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.feature-fields-container&gt; is not present.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test deleting feature among a list of features will remove the correct feature, before saving</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#ddFeaturesAdd&gt; was visible after 563 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;div[data-featuretype-id=&quot;10004&quot;]&gt; is not present.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test creating a destination creative with only name and description</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#ddFeaturesAdd&gt; was visible after 578 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-creatives&gt; was visible after 1078 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.updated .col-name a&gt; contains text: &quot;f8fe18eb-ddf9-bd48-6fc5-30963a89b84c&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test existing creative has correct name and description</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-creatives&gt; was visible after 31 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#dest-name&gt; was visible after 547 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.creativeName&gt; contains text: &quot;f8fe18eb-ddf9-bd48-6fc5-30963a89b84c&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.creativeDescription&gt; contains text: &quot;grapefruit is a fruit&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test new creative cannot use a name that exists for another creative</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#ddFeaturesAdd&gt; was visible after 531 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;.error&gt; was visible after 31 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.error&gt; contains text: &quot;Please enter an unique destination name&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test Calculator feature has correct properties (step 1: arrange)</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#ddFeaturesAdd&gt; was visible after 562 milliseconds.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test Calculator feature has correct properties (step 2: assert)</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-creatives&gt; was visible after 1234 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#dest-name&gt; was visible after 609 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.featureNameValue&gt; contains text: &quot;Feature 1&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;span[data-page-definition-id=&quot;1&quot;]&gt; contains text: &quot;Apple Page&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;span[data-page-definition-id=&quot;2&quot;]&gt; contains text: &quot;Banana Page&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test Combination feature has correct properties (step 1: arrange)</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#ddFeaturesAdd&gt; was visible after 844 milliseconds.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test Combination feature has correct properties (step 2: assert)</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-creatives&gt; was visible after 563 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#dest-name&gt; was visible after 110 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.featureNameValue&gt; contains text: &quot;Feature 2&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;span[data-page-definition-id=&quot;6&quot;]&gt; contains text: &quot;Apple Page&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite error">
+            <h3 class="name">test Image feature has correct properties (step 1: arrange)</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#ddFeaturesAdd&gt; was visible after 547 milliseconds.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite error">
+            <h3 class="name">test Image feature has correct properties (step 2: assert)</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-creatives&gt; was visible after 609 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#dest-name&gt; was visible after 625 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.featureNameValue&gt; contains text: &quot;Feature 1&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;span[data-page-definition-id=&quot;11&quot;]&gt; contains text: &quot;Apple Page&quot;.</div>
+              </li>
+              <li class="testcase error">
+                <div class="status">&#10005;</div>
+                <div class="name">Testing if element &lt;span[data-page-definition-id=&quot;26&quot;]&gt; contains text: &quot;Apple Page 2&quot;. Element could not be located. Expected &quot;Apple Page 2&quot; but got: &quot;null&quot;</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="package success">
+        <h2 class="name">&#10003; promotionalCreative</h2>
+        <div class="suites">
+          <div class="suite success">
+            <h3 class="name">test creating a promotional creative with empty fields causes name validation error</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;body&gt; was visible after 94 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-content-container&gt; was visible after 1844 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;.btn-success&gt; was visible after 31 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.validation-summary-errors&gt; contains text: &quot;Name is required&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test creating a promotional creative will save</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-content-container&gt; was visible after 531 milliseconds.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test promotional creative field values persisted after create</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-creatives&gt; was visible after 531 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;input[name='Name']&gt; was visible after 562 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;input[name='Name']&gt; equals: &quot;80fb7cc6-c00d-ad0d-83e3-90b7238facad&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;select[name='AdType']&gt; equals: &quot;10008&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;select[name='AdFunction']&gt; equals: &quot;4&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test editing a promotional creative</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-creatives&gt; was visible after 578 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;input[name='Name']&gt; was visible after 125 milliseconds.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test promotional creative field values persisted after edit</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-creatives&gt; was visible after 562 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;//a[text()='46f57497-dfbf-2357-d427-b0747229b383']&gt; was visible after 47 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;input[name='Name']&gt; was visible after 110 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;input[name='Name']&gt; equals: &quot;46f57497-dfbf-2357-d427-b0747229b383&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.adTypeName&gt; contains text: &quot;Animated Roadblock&quot;.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if value of &lt;select[name='AdFunction']&gt; equals: &quot;5&quot;.</div>
+              </li>
+            </ul>
+          </div>
+          <div class="suite success">
+            <h3 class="name">test duplicate creative name</h3>
+            <ul class="testcases">
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;#campaign-content-container&gt; was visible after 531 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Element &lt;.error&gt; was visible after 16 milliseconds.</div>
+              </li>
+              <li class="testcase success">
+                <div class="status">&#10003;</div>
+                <div class="name">Testing if element &lt;.error&gt; contains text: &quot;Please enter an unique creative name.&quot;.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

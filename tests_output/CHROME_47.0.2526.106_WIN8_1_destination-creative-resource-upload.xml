@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="2">
+
+  <testsuite name="destination-creative-resource-upload"
+    errors="1" failures="1" hostname="" id="" package="destination-creative-resource-upload" skipped="0"
+    tests="2" time="0.000" timestamp="Wed, 13 Jan 2016 20:35:35 GMT">
+  
+    <testcase name="test destination creative resource upload" time="9.474" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test destination creative resource upload worked" time="5.149" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;.resource-image-content&gt; is visible. Element could not be located.">AssertionError: Testing if element &lt;.resource-image-content&gt; is visible. Element could not be located.
+    at Object.module.exports.test destination creative resource upload worked (C:\code\project\nightwatch\tests\destination-creative-resource-upload.js:66:11)
+    at Module.call (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:60:34)
+    at C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:102:29
+    at _fulfilled (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\jevans.BLP\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at process._tickCallback (node.js:355:11)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

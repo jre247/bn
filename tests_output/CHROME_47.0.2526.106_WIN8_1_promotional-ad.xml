@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="11">
+
+  <testsuite name="promotional-ad"
+    errors="0" failures="0" hostname="" id="" package="promotional-ad" skipped="0"
+    tests="11" time="0.000" timestamp="Wed, 13 Jan 2016 20:37:31 GMT">
+  
+    <testcase name="create a delivery group" time="12.17" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a second delivery group" time="3.882" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create an overlay promotional creative" time="4.441" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a second overlay promotional creative" time="4.352" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a destination creative" time="3.577" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="create a second destination creative" time="3.555" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test creating an ad empty fields causes name validation error" time="2.855" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test creating a promotional ad saves" time="6.176" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test created promotional ad has correct input values" time="1.934" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test editing promotional ad saves" time="5.726" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test edited promotional ad has correct input values" time="1.849" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
